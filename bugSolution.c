@@ -1,0 +1,1 @@
+int main() {    int x = 10;    int *ptr = &x;    *ptr = 20;    printf("%d\n", x); //The output will be 20, showing direct modification.    int y = 30;    ptr = &y;    *ptr = 40;    printf("%d\n", y); //The output will be 40, showing modification through different pointers.    return 0;} 
